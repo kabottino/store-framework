@@ -1,10 +1,4 @@
 {
-  "flex-layout.row":{
-    "children": [
-      "info-card#rethink",
-      "flex-layout.col#deletar"
-    ]
-  },
   "store.home": {
     "blocks": [
       "rich-text",
@@ -60,6 +54,12 @@
       "blockClass": "metal"
     }
   },
+  "flex-layout.row":{
+    "children": [
+      "info-card#rethink",
+      "flex-layout.col"
+    ]
+  },
   "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
@@ -69,8 +69,7 @@
       "textPosition": "center"
     }
   },
-  
-  "flex-layout.col#deletar": {
+  "flex-layout.col": {
     "children": [
       "image#electronics",
       "image#major-appliance"
