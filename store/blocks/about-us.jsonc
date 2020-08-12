@@ -16,7 +16,7 @@
         "rich-text#about-content"
       ],
           "props": {
-          "preventVerticalStretch": true
+           "preventVerticalStretch": true
       }
     },
    "rich-text#about-title": {
