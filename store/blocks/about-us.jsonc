@@ -95,15 +95,11 @@
         "font": "t-heading-3"
       }
     },
-    "rich-text#home2": {
-      "props": {
-        "iframe": {
-          "props": {
-            "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
-            "width": 800,
-            "height": 1000
-          }
+      "instagram#iframe": {
+        "props": {
+          "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+          "width": 800,
+          "height": 1000
         }
-      }
     }
 }
