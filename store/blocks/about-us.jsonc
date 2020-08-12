@@ -16,7 +16,8 @@
      "rich-text#about-content"
    ],
       "props": {
-         "preventVerticalStretch": true
+         "preventVerticalStretch": true,
+         "textPosition": "right"
    }
  },
 "rich-text#about-title": {
@@ -34,7 +35,8 @@
  "image#about-us": {
    "props": {
      "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
-     "maxHeight": "600px"
+     "maxHeight": "600px",
+     "horizontalAlign": "left"
    }
  }
 }
