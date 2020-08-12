@@ -1,6 +1,6 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout", "flex-layout.col#right", "flex-layout.col#left"]
+    "blocks": ["search-result-layout"]
  },
  "search-result-layout": {
   "blocks": [
@@ -22,30 +22,29 @@
  "flex-layout.row#results": {
   "children": [
     "flex-layout.col#filter",
-    "flex-layout.col#search"
+    "flex-layout.col#search",
+    "flex-layout.col#right"
   ]
 },
 "flex-layout.col#filter": {
+  "children":[
+    "filter-navigator.v3"
+  ],
   "props": {
     "width": "20%"
   }
 },
+"flex-layout.col#filter": {
+  "children": [
+    "search-content"
+  ]
+ },
  "flex-layout.row#top": {
   "children": [
     "total-products.v2",
     "order-by.v2"
   ]
  },
- "flex-layout.col#left": {
-  "children": [
-    "filter-navigator.v3"
-  ]
-},
-"flex-layout.col#right": {
-  "children": [
-    "search-content"
-  ]
-},
 "search-content": {
   "blocks": ["gallery", "not-found"]
 },
