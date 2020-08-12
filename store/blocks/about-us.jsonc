@@ -69,14 +69,7 @@
     "tab-list.item#home2": {
       "props": {
         "tabId": "electronics",
-        "label": "Instagram",
-        "iframe": {
-          "props": {
-            "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
-            "width": 800,
-            "height": 1000
-          }
-        }
+        "label": "Instagram"
       }
     },
     "tab-content.item#home1": {
@@ -101,5 +94,12 @@
         "textPosition": "CENTER",
         "font": "t-heading-3"
       }
+    },
+      "iframe#home2": {
+        "props": {
+          "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+          "width": 800,
+          "height": 1000
+        }
     }
 }
