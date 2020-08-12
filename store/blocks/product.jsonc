@@ -17,9 +17,10 @@
     "children": [
       "product-images"
     ],
-    "horizontalAlign": "LEFT",
-    "preventVerticalStretch": "auto",
-    "verticalAlign":"middle"
+    "props":{
+      "preventVerticalStretch": "auto",
+      "verticalAlign":"middle"
+      }
   },
   "flex-layout.col#right": {
     "children": [
@@ -27,9 +28,10 @@
       "product-price",
       "buy-button"
     ],
-    "horizontalAlign": "RIGHT",
+    "props":{
     "preventVerticalStretch": "auto",
     "verticalAlign":"middle"
+    }
   },
   "buy-button#product": {
     "props": {
