@@ -28,17 +28,13 @@
 },
 "flex-layout.col#filter": {
   "children":[
-    "filter-navigator.v3"
+    "filter-navigator.v3",
+    "search-content"
   ],
   "props": {
     "width": "20%"
   }
 },
-"flex-layout.col#filter": {
-  "children": [
-    "search-content"
-  ]
- },
  "flex-layout.row#top": {
   "children": [
     "total-products.v2",
