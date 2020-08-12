@@ -95,7 +95,7 @@
         "font": "t-heading-3"
       }
     },
-      "iframe": {
+      "iframe#tab-list.item#home2": {
         "props": {
           "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
           "width": 800,
