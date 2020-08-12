@@ -17,7 +17,9 @@
     "children": [
       "product-images"
     ],
-    "horizontalAlign": "LEFT"
+    "horizontalAlign": "LEFT",
+    "preventVerticalStretch": "auto",
+    "verticalAlign":"middle"
   },
   "flex-layout.col#right": {
     "children": [
@@ -25,7 +27,9 @@
       "product-price",
       "buy-button"
     ],
-    "horizontalAlign": "RIGHT"
+    "horizontalAlign": "RIGHT",
+    "preventVerticalStretch": "auto",
+    "verticalAlign":"middle"
   },
   "buy-button#product": {
     "props": {
@@ -42,7 +46,7 @@
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false,
+      "showListPrice": true,
       "labelSellingPrice": "R$50,00"
     }
   }
