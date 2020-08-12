@@ -5,7 +5,8 @@
       "info-card#button-left",
       "info-card#button-right",
       "info-card#button-left",
-      "shelf"
+      "shelf",
+      "slider-layout#home"
     ]
   },
   "rich-text": {
