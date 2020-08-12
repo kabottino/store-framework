@@ -28,7 +28,8 @@
       "product-name",
       "product-price",
       "buy-button",
-      "flex-layout.row#qty-sku"
+      "flex-layout.row#qty-sku",
+      "shipping-simulator"
     ],
     "props":{
     "preventVerticalStretch": "auto",
@@ -38,8 +39,7 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
+      "product-quantity"
     ]
   },
   "sku-selector": {
