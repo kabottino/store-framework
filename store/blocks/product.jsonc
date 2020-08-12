@@ -60,7 +60,8 @@
     "props": {
       "hideImpossibleCombinations": false,
       "displayMode": "select",
-      "showVariationsErrorMessage": true
+      "showVariationsErrorMessage": true,
+      "initialSelection": "empty"
     }
   },
   "product-quantity": {
