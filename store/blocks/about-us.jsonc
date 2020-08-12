@@ -76,7 +76,8 @@
         "rich-text#home1"
       ],
       "props": {
-        "tabId": "Sobre"
+        "tabId": "Sobre",
+        "text": "Sobre"
       }
     },
     "tab-content.item#home2": {
