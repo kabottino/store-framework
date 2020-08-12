@@ -26,9 +26,10 @@
   "flex-layout.col#right": {
     "children": [
       "product-name",
+      "product-identifier.product",
       "product-price",
-      "buy-button",
       "flex-layout.row#qty-sku",
+      "buy-button",
       "shipping-simulator"
     ],
     "props":{
@@ -71,7 +72,6 @@
   },
   "product-name": {
     "props": {
-      "product-identifier.product":"index",
       "showSKU": true,
       "showBrandName": true
     }
