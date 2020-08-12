@@ -95,6 +95,7 @@
         "font": "t-heading-3"
       }
     },
+    "instagram":{
       "iframe": {
         "props": {
           "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
@@ -102,4 +103,5 @@
           "height": 1000
         }
     }
+  }
 }
