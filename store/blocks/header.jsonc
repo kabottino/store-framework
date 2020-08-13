@@ -16,7 +16,8 @@
       "header-layout.desktop": {
         "children": [
           "header-row#notification",
-          "header-row#main"
+          "header-row#main",
+          "header-row#menu"
         ]
       },
     
@@ -53,7 +54,8 @@
           "logo",
           "header-spacer",
           "minicart",
-          "login"
+          "login",
+          "drawer"
         ],
       
         "props": {
@@ -87,5 +89,12 @@
           "text": "**Free Shipping on orders over $50**",
           "textPosition": "CENTER"
         }
+      },
+      "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
+        ]
       }
 }
